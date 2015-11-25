@@ -1,0 +1,59 @@
+commit ffa0243a7149d03c428febf37c2d069efea1597e
+Author: Terrell Russell <terrellrussell@gmail.com>
+Date:   Mon May 14 16:24:19 2012 -0400
+
+    [#772] add EPM to our repository, virgin import, changes later
+
+commit e360ca964804bbbdbe9655bb4bb81a7d4145ac09
+Author: Terrell Russell <terrellrussell@gmail.com>
+Date:   Mon May 14 16:28:40 2012 -0400
+
+    [#772] don't fork when running rpm, double quotes were breaking things, just use system and wait
+
+commit 22c76d15201149acf3f2753565bf9a56a6e1c225
+Author: Terrell Russell <terrellrussell@gmail.com>
+Date:   Mon May 14 16:29:23 2012 -0400
+
+    [#772] create needed BUILD directory, for newer rpmbuild versions
+
+commit e26345d9ddfafc7522151597a7beb2c2c6fbd345
+Author: Terrell Russell <terrellrussell@gmail.com>
+Date:   Mon May 14 16:31:24 2012 -0400
+
+    [#772] remove additionally added BUILD directory
+
+commit 660090968ba9a7a6a5573a55f07729ba22c4d5b0
+Author: Terrell Russell <terrellrussell@gmail.com>
+Date:   Mon May 14 16:42:07 2012 -0400
+
+    [#772] forgot a hyphen for the buildroot flag
+
+commit 231740af25762c76b1e60b057261fd69f59eb76f
+Author: Terrell Russell <terrellrussell@gmail.com>
+Date:   Fri May 18 12:04:29 2012 -0400
+
+    [#787] detect whether the 'old-style' rpm buildroot directory exists before attempting to delete it during cleanup
+
+commit b2ec12060930054e0f7de5be634ceff752b3c947
+Author: Terrell Russell <terrellrussell@gmail.com>
+Date:   Tue Jun 5 09:17:16 2012 -0400
+
+    [#818] preinstall, postinstall, preremove, and postremove scripts need -e to be deb lintian clean
+
+commit 73174b3fc1481bc247fd95d54243d7415e51ff81
+Author: Terrell Russell <terrellrussell@gmail.com>
+Date:   Wed Jun 13 09:52:38 2012 -0400
+
+    [#837] move COPYING to better-named LICENSE, clean up permissions, remove shell script from /usr/bin (remove extension) for lintian clean
+
+commit 8652c739ead4d132b2fce3b2a20724a4c12f8bc1
+Author: Jason M. Coposky <jasonc@Fermat.renci.org>
+Date:   Mon Sep 17 11:10:36 2012 -0400
+
+    [#976] Migrate resource plugins to work with abstract first_class_objects rather than specific files
+
+commit 3e4653928df1b1707400eacc9c31d0814bc948dd
+Author: Terrell Russell <terrellrussell@gmail.com>
+Date:   Mon Sep 17 17:08:27 2012 -0400
+
+    [#976] remove committed config.h file
