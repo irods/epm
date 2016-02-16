@@ -117,6 +117,7 @@ make_rpm(int            format,		/* I - Subformat */
   fprintf(fp, "License: %s\n", dist->copyright);
   fprintf(fp, "Packager: %s\n", dist->packager);
   fprintf(fp, "Vendor: %s\n", dist->vendor);
+  fprintf(fp, "AutoReqProv: no" );
 
   if (format == PACKAGE_LSB || format == PACKAGE_LSB_SIGNED)
     fputs("Requires: lsb >= 3.0\n", fp);
